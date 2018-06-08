@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConstraintLayoutDemo</string>
+
+    <string name="view_constraint_horizontal">有Start-End约束，可以使用app:layout_constraintHorizontal_bias属性确定水平方向偏移量。而Top-Bottom约束中缺少了Bottom，所以要使用layout_marginTop来确定垂直方向的偏移量</string>
+    <string name="view_constraint_vertical">有Top-Bottom约束，可以使用layout_constraintVertical_bias属性确定垂直方向偏移量。而Start-End约束中缺少了End，所以要使用layout_marginStart来确定水平方向的偏移量</string>
+    <string name="view_constraint_no_hor_ver">只有End和Bottom约束，靠layout_marginEnd和layout_marginBottom来确定偏移量。</string>
+    <string name="view_constraint">Start-End和Top-Bottom成对出现，可以使用bias属性确定水平和垂直方向的偏移</string>
+    <string name="view_constraint_with_barrier">拥有栅栏的视图，栅栏有四种方向，这里的方向是start</string>
+    <string name="view_constraint_guideLine">使用了guideLine的视图</string>
+
+
+</resources>
