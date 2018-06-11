@@ -7,6 +7,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.example_4)
+        setContentView(R.layout.example_attributes_panel)
     }
 }
